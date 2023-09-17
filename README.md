@@ -2,6 +2,14 @@
 
 该项目用于在Mac上导出OpenCat的对话记录，输出为markdown格式文件
 
+文件格式大致如下：
+```markdown
+**prompt**
+> (yyyy-mm-dd HH:MM:SS)❓: 你的提问
+(yyyy-mm-dd HH:MM:SS)🤖:
+AI的回答
+```
+
 # 功能
 - 对单个对话进行操作
 - 对所有对话进行操作

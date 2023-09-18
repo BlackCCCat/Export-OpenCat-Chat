@@ -1,6 +1,6 @@
 # OpenCat 对话记录导出工具
 
-该项目用于在Mac上导出OpenCat的对话记录，输出为markdown格式文件，文件名称为`[对话标题(最后对话时间)].md`
+该项目用于在Mac上导出[OpenCat](https://apps.apple.com/us/app/opencat/id6445999201)的对话记录，输出为markdown格式文件，文件名称为`[对话标题(最后对话时间)].md`
 
 文件内容格式大致如下：
 ```markdown

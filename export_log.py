@@ -25,7 +25,6 @@ class Logger:
     def log(self, log_text):
         """
         记录日志，包含每个对话的标题、导出时间、已导出对话的最新时间、导出条数、导出位置
-        :param title: 标题
         :param log_text: 记录的日志信息（已导出对话的最新时间、导出条数），格式为JSON字符串
         :return None
         """

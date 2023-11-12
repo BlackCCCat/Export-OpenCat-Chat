@@ -42,13 +42,7 @@ def export_new_dialogues(title, out):
         print('没有可以导出的对话信息')
 
 
-
-# 使用click.group来组织命令，这样可以添加更多的子命令
-@click.group()
-def cli():
-    pass
-
-@cli.command()  # 定义子命令
+@click.command()
 @click.option('--title', '-t', required=True, help='Title of the dialogue to be exported.') # 标题为必要参数
 @click.option('--out', '-o', required=True, type=click.Path(), help='Output path where the files will be saved.') # 输出路径为必要参数
 @click.option('--all', 'export_type', flag_value='all', help='Export all dialogues.') # 标记是否导出全部
@@ -70,4 +64,4 @@ def export(title, out, export_type):
 
 
 if __name__ == '__main__':
-    cli()
+    export()

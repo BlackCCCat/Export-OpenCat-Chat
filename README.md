@@ -54,8 +54,8 @@ python start.py
 
 - 直接使用命令导出指定对话
 ```python
-python start_cmd.py export --title [对话标题] --out [指定导出的绝对路径] --all
-python start_cmd.py export -t [对话标题] -o [指定导出的绝对路径] --all
+python start_cmd.py --title [对话标题] --out [指定导出的绝对路径] --all
+python start_cmd.py -t [对话标题] -o [指定导出的绝对路径] --all
 ```
 使用上面任意一个命令将指定对话的对话记录导出到指定路径下，`--all`为导出全部对话，可以使用`--new`根据导出记录来导出最新的对话
 

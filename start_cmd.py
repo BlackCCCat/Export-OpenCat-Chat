@@ -11,7 +11,7 @@ content2file = Content2File()
 
 def export_all_dialogues(title, out):
     logger = Logger(title)
-    # 指定时间为0，导出所有回话记录
+    # 指定时间为0，导出所有会话记录
     kwargs = {title: 0}
     sql = loadtable.sqlQuery(**kwargs)
     content = loadtable.getContent(sql)

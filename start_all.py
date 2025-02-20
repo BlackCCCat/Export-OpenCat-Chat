@@ -44,7 +44,7 @@ class UserPicker():
 """
         )
         continue_pick_num = input('请选择导出方式:')
-        if re.match('^\d+$', continue_pick_num):
+        if re.match(r'^\d+$', continue_pick_num):
             return int(continue_pick_num)
         else:
             return 0

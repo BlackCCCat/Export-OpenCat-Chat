@@ -28,7 +28,7 @@ class User():
         title_pick_num = input('请输入要导出的对话标题(输入序号):')
         if title_pick_num == '0':
             return None
-        elif re.match('^\d+$', title_pick_num):
+        elif re.match(r'^\d+$', title_pick_num):
             title_pick = self.title_list[int(title_pick_num) - 1]
             return title_pick
         else:
@@ -72,7 +72,7 @@ class User():
 """
         )
         continue_pick_num = input('请选择导出方式:')
-        if re.match('^\d+$', continue_pick_num):
+        if re.match(r'^\d+$', continue_pick_num):
             return int(continue_pick_num)
         else:
             return 0

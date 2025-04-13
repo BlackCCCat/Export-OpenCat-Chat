@@ -40,20 +40,21 @@ git clone https://github.com/BlackCCCat/Export-OpenCat-Chat.git
 ## 开始使用
 在`[your path]`中打开终端：
 - 一次导出所有对话
-```Python
+```shell
+cd Export-OpenCat-Chat
 python start_all.py
 ```
 根据终端输出信息操作即可
 
 - 一次导出一个对话
 
-```Python
+```shell
 python start.py
 ```
 根据终端输出信息操作即可
 
 - 直接使用命令导出指定对话
-```python
+```shell
 python start_cmd.py --title [对话标题] --out [指定导出的绝对路径] --all
 python start_cmd.py -t [对话标题] -o [指定导出的绝对路径] --all
 ```
